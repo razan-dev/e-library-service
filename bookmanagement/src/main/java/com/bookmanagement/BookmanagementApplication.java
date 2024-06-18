@@ -3,7 +3,7 @@ package com.bookmanagement;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.bookmanagement")
 public class BookmanagementApplication {
 
 	public static void main(String[] args) {
